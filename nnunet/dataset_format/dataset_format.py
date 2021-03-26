@@ -21,4 +21,4 @@ for name in mask_names:
     target = open(dir + '/label.txt', 'w')  # 打开目的文件
     target.write(indate)
     j+=1
-    test =1
+    test = 2
