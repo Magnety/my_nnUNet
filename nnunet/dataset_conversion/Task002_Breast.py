@@ -23,10 +23,10 @@ if __name__ == "__main__":
     This is the KiTS dataset after Nick fixed all the labels that had errors. Downloaded on Jan 6th 2020    
     """
 
-    base = "/home/ubuntu/liuyiyao/Data/Breast"
+    base = "/home/ubuntu/liuyiyao/Data/Breast_c"
 
-    task_id = 2
-    task_name = "Breast"
+    task_id = 3
+    task_name = "Breast_c"
 
     foldername = "Task%03.0d_%s" % (task_id, task_name)
 
@@ -64,9 +64,9 @@ if __name__ == "__main__":
 
     json_dict = {}
     json_dict['name'] = "Breast"
-    json_dict['description'] = "Breast tumor segmentation"
+    json_dict['description'] = "Breast tumor segmentation with class"
     json_dict['tensorImageSize'] = "4D"
-    json_dict['reference'] = "Breast data for nnunet"
+    json_dict['reference'] = "Breast with class data for nnunet"
     json_dict['licence'] = ""
     json_dict['release'] = "0.0"
     json_dict['modality'] = {
@@ -74,7 +74,8 @@ if __name__ == "__main__":
     }
     json_dict['labels'] = {
         "0": "background",
-        "1": "Tumor"
+        "1": "Benign",
+        "2": "Malignant"
     }
 
     json_dict['numTraining'] = len(train_patient_names)

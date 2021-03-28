@@ -2,7 +2,8 @@
 from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
-
+from nnunet.network_architecture.initialization import InitWeights_He
+from nnunet.utilities.nd_softmax import softmax_helper
 import copy
 import logging
 import math
@@ -10,6 +11,7 @@ import torch.nn.functional as F
 from os.path import join as pjoin
 
 from collections import OrderedDict
+from nnunet.network_architecture.neural_network import SegmentationNetwork
 
 import torch
 import torch.nn as nn
@@ -385,9 +387,34 @@ class DecoderCup(nn.Module):
         return x
 
 
-class VisionTransformer(nn.Module):
-    def __init__(self,img_size=(64,256,256), num_classes=1, zero_head=False, vis=False):
+class VisionTransformer(SegmentationNetwork):
+    def __init__(self,img_size,input_channels, base_num_features, num_classes, num_pool, num_conv_per_stage=2,
+                 feat_map_mul_on_downscale=2, conv_op=nn.Conv2d,
+                 norm_op=nn.BatchNorm2d, norm_op_kwargs=None,
+                 dropout_op=nn.Dropout2d, dropout_op_kwargs=None,
+                 nonlin=nn.LeakyReLU, nonlin_kwargs=None, deep_supervision=False, dropout_in_localization=False,
+                 final_nonlin=softmax_helper, weightInitializer=InitWeights_He(1e-2), pool_op_kernel_sizes=None,
+                 conv_kernel_sizes=None,
+                 upscale_logits=False, convolutional_pooling=False, convolutional_upsampling=False,
+                 max_num_features=None,
+                 seg_output_use_bias=False, zero_head=False, vis=False):
         super(VisionTransformer, self).__init__()
+
+        DEFAULT_BATCH_SIZE_3D = 4
+        DEFAULT_PATCH_SIZE_3D = (64, 192, 160)
+        SPACING_FACTOR_BETWEEN_STAGES = 2
+        BASE_NUM_FEATURES_3D = 30
+        MAX_NUMPOOL_3D = 999
+        MAX_NUM_FILTERS_3D = 320
+
+        DEFAULT_PATCH_SIZE_2D = (256, 256)
+        BASE_NUM_FEATURES_2D = 30
+        DEFAULT_BATCH_SIZE_2D = 50
+        MAX_NUMPOOL_2D = 999
+        MAX_FILTERS_2D = 480
+
+        use_this_for_batch_size_computation_2D = 19739648
+        use_this_for_batch_size_computation_3D = 520000000  # 505789440
         config = ml_collections.ConfigDict()
         config.patches = ml_collections.ConfigDict({'size': (16, 16, 16)})
         config.hidden_size = 768
@@ -422,6 +449,69 @@ class VisionTransformer(nn.Module):
             kernel_size=3,
         )
         self.config = config
+        self.convolutional_upsampling = convolutional_upsampling  # True
+        self.convolutional_pooling = convolutional_pooling  # True
+        self.upscale_logits = upscale_logits  # False
+        if nonlin_kwargs is None:
+            nonlin_kwargs = {'negative_slope': 1e-2, 'inplace': True}  #
+        if dropout_op_kwargs is None:
+            dropout_op_kwargs = {'p': 0.5, 'inplace': True}
+        if norm_op_kwargs is None:
+            norm_op_kwargs = {'eps': 1e-5, 'affine': True, 'momentum': 0.1}
+
+        self.conv_kwargs = {'stride': 1, 'dilation': 1, 'bias': True}
+
+        self.nonlin = nonlin  # nn.LeakyReLU
+        self.nonlin_kwargs = nonlin_kwargs  # {'negative_slope': 1e-2, 'inplace': True}
+        self.dropout_op_kwargs = dropout_op_kwargs  # {'p': 0, 'inplace': True}
+        self.norm_op_kwargs = norm_op_kwargs  # {'eps': 1e-5, 'affine': True}
+        self.weightInitializer = weightInitializer  # InitWeights_He(1e-2)
+        self.conv_op = conv_op  # nn.Conv3d
+
+        self.norm_op = norm_op  # nn.InstanceNorm3d
+        self.dropout_op = dropout_op  # nn.Dropout3d
+
+        self.num_classes = num_classes
+        self.final_nonlin = final_nonlin
+        self._deep_supervision = deep_supervision
+        self.do_ds = deep_supervision
+
+        if conv_op == nn.Conv2d:
+            upsample_mode = 'bilinear'
+            pool_op = nn.MaxPool2d
+            transpconv = nn.ConvTranspose2d
+            if pool_op_kernel_sizes is None:
+                pool_op_kernel_sizes = [(2, 2)] * num_pool
+            if conv_kernel_sizes is None:
+                conv_kernel_sizes = [(3, 3)] * (num_pool + 1)
+        elif conv_op == nn.Conv3d:
+            upsample_mode = 'trilinear'
+            pool_op = nn.MaxPool3d
+            transpconv = nn.ConvTranspose3d
+            if pool_op_kernel_sizes is None:
+                pool_op_kernel_sizes = [(2, 2, 2)] * num_pool
+            if conv_kernel_sizes is None:
+                conv_kernel_sizes = [(3, 3, 3)] * (num_pool + 1)
+        else:
+            raise ValueError("unknown convolution dimensionality, conv op: %s" % str(conv_op))
+
+        self.input_shape_must_be_divisible_by = np.prod(pool_op_kernel_sizes, 0, dtype=np.int64)
+        self.pool_op_kernel_sizes = pool_op_kernel_sizes
+        self.conv_kernel_sizes = conv_kernel_sizes
+
+        self.conv_pad_sizes = []
+        for krnl in self.conv_kernel_sizes:
+            self.conv_pad_sizes.append([1 if i == 3 else 0 for i in krnl])
+
+        if max_num_features is None:
+            if self.conv_op == nn.Conv3d:
+                self.max_num_features = self.MAX_NUM_FILTERS_3D
+            else:
+                self.max_num_features = self.MAX_FILTERS_2D
+        else:
+            self.max_num_features = max_num_features
+        if self.weightInitializer is not None:
+            self.apply(self.weightInitializer)
 
     def forward(self, x):
         #print("tag1_1",x.size())
