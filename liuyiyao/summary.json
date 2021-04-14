@@ -1,0 +1,1986 @@
+{
+    "author": "Fabian",
+    "description": "",
+    "id": "440050230890",
+    "name": "",
+    "results": {
+        "all": [
+            {
+                "1": {
+                    "Accuracy": 0.9982220301631483,
+                    "Dice": 0.7759423370983236,
+                    "False Discovery Rate": 0.1862599181707445,
+                    "False Negative Rate": 0.258499903127269,
+                    "False Omission Rate": 0.0010773564689953777,
+                    "False Positive Rate": 0.0007076274400337201,
+                    "Jaccard": 0.63390995425732,
+                    "Negative Predictive Value": 0.9989226435310046,
+                    "Precision": 0.8137400818292555,
+                    "Recall": 0.741500096872731,
+                    "Total Positives Reference": 552271,
+                    "Total Positives Test": 503243,
+                    "True Negative Rate": 0.9992923725599663
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00000.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00000.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9963425526951434,
+                    "Dice": 0.12432726264746223,
+                    "False Discovery Rate": 0.9327562237876611,
+                    "False Negative Rate": 0.17716572953397502,
+                    "False Omission Rate": 5.612031591964307e-05,
+                    "False Positive Rate": 0.0036026804848858784,
+                    "Jaccard": 0.06628409112719037,
+                    "Negative Predictive Value": 0.9999438796840804,
+                    "Precision": 0.06724377621233893,
+                    "Recall": 0.822834270466025,
+                    "Total Positives Reference": 41972,
+                    "Total Positives Test": 513594,
+                    "True Negative Rate": 0.9963973195151141
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00001.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00001.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9885426362498622,
+                    "Dice": 0.6023488081008282,
+                    "False Discovery Rate": 0.40924752183365887,
+                    "False Negative Rate": 0.38559047988617257,
+                    "False Omission Rate": 0.005527077416898357,
+                    "False Positive Rate": 0.006097593477708441,
+                    "Jaccard": 0.43097219935278563,
+                    "Negative Predictive Value": 0.9944729225831016,
+                    "Precision": 0.5907524781663411,
+                    "Recall": 0.6144095201138274,
+                    "Total Positives Reference": 1878633,
+                    "Total Positives Test": 1953864,
+                    "True Negative Rate": 0.9939024065222916
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00002.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00002.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9977975279862072,
+                    "Dice": 0.16879413709061916,
+                    "False Discovery Rate": 0.9070780149819754,
+                    "False Negative Rate": 0.08006803773001392,
+                    "False Omission Rate": 1.9510980228029325e-05,
+                    "False Positive Rate": 0.0021835387936416373,
+                    "Jaccard": 0.09217649446711723,
+                    "Negative Predictive Value": 0.999980489019772,
+                    "Precision": 0.09292198501802461,
+                    "Recall": 0.9199319622699861,
+                    "Total Positives Reference": 32335,
+                    "Total Positives Test": 320118,
+                    "True Negative Rate": 0.9978164612063584
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00003.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00003.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9951258669816997,
+                    "Dice": 0.31210324218049557,
+                    "False Discovery Rate": 0.7939139341678075,
+                    "False Negative Rate": 0.35724149986889253,
+                    "False Omission Rate": 0.0006178639646677715,
+                    "False Positive Rate": 0.004266924304637709,
+                    "Jaccard": 0.18490659498847759,
+                    "Negative Predictive Value": 0.9993821360353322,
+                    "Precision": 0.2060860658321925,
+                    "Recall": 0.6427585001311075,
+                    "Total Positives Reference": 228820,
+                    "Total Positives Test": 713663,
+                    "True Negative Rate": 0.9957330756953623
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00004.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00004.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9973116716559675,
+                    "Dice": 0.4086939698151771,
+                    "False Discovery Rate": 0.6869312539267547,
+                    "False Negative Rate": 0.41157452157723573,
+                    "False Omission Rate": 0.0006517573810301866,
+                    "False Positive Rate": 0.002041728714898494,
+                    "Jaccard": 0.2568292723478897,
+                    "Negative Predictive Value": 0.9993482426189698,
+                    "Precision": 0.31306874607324536,
+                    "Recall": 0.5884254784227643,
+                    "Total Positives Reference": 210013,
+                    "Total Positives Test": 394728,
+                    "True Negative Rate": 0.9979582712851015
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00005.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00005.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9973815511872641,
+                    "Dice": 0.060989879055522306,
+                    "False Discovery Rate": 0.9672022292393387,
+                    "False Negative Rate": 0.5656798371923357,
+                    "False Omission Rate": 0.00011104263783278599,
+                    "False Positive Rate": 0.002508185157272136,
+                    "Jaccard": 0.03145413136152924,
+                    "Negative Predictive Value": 0.9998889573621672,
+                    "Precision": 0.03279777076066123,
+                    "Recall": 0.4343201628076642,
+                    "Total Positives Reference": 26043,
+                    "Total Positives Test": 344871,
+                    "True Negative Rate": 0.9974918148427279
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00006.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00006.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9980733472701462,
+                    "Dice": 0.8275641185229644,
+                    "False Discovery Rate": 0.2164956859867191,
+                    "False Negative Rate": 0.12312546965745486,
+                    "False Omission Rate": 0.0006530225052387229,
+                    "False Positive Rate": 0.0012842546669961097,
+                    "Jaccard": 0.7058502145809444,
+                    "Negative Predictive Value": 0.9993469774947613,
+                    "Precision": 0.7835043140132809,
+                    "Recall": 0.8768745303425451,
+                    "Total Positives Reference": 701309,
+                    "Total Positives Test": 784884,
+                    "True Negative Rate": 0.9987157453330039
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00007.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00007.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9991685049982848,
+                    "Dice": 0.6475149390486814,
+                    "False Discovery Rate": 0.4401994820080454,
+                    "False Negative Rate": 0.2321756547371604,
+                    "False Omission Rate": 0.00023125249749384868,
+                    "False Positive Rate": 0.0006011559475649353,
+                    "Jaccard": 0.47875940203970063,
+                    "Negative Predictive Value": 0.9997687475025061,
+                    "Precision": 0.5598005179919546,
+                    "Recall": 0.7678243452628396,
+                    "Total Positives Reference": 132305,
+                    "Total Positives Test": 181470,
+                    "True Negative Rate": 0.9993988440524351
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00008.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00008.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9995700548127676,
+                    "Dice": 0.612669235822796,
+                    "False Discovery Rate": 0.10760792360508242,
+                    "False Negative Rate": 0.5335430309905635,
+                    "False Omission Rate": 0.000389090438095151,
+                    "False Positive Rate": 4.103292064305819e-05,
+                    "Jaccard": 0.4416172780441129,
+                    "Negative Predictive Value": 0.9996109095619049,
+                    "Precision": 0.8923920763949176,
+                    "Recall": 0.4664569690094364,
+                    "Total Positives Reference": 96965,
+                    "Total Positives Test": 50684,
+                    "True Negative Rate": 0.9999589670793569
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00009.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00009.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9922451312310533,
+                    "Dice": 0.24773063574287904,
+                    "False Discovery Rate": 0.8559806802937979,
+                    "False Negative Rate": 0.11486567475310738,
+                    "False Omission Rate": 0.00016718585481298502,
+                    "False Positive Rate": 0.007600129029105673,
+                    "Jaccard": 0.14137702843872127,
+                    "Negative Predictive Value": 0.999832814145187,
+                    "Precision": 0.14401931970620208,
+                    "Recall": 0.8851343252468926,
+                    "Total Positives Reference": 191885,
+                    "Total Positives Test": 1179314,
+                    "True Negative Rate": 0.9923998709708943
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00010.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00010.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9972407621627787,
+                    "Dice": 0.8076762042802668,
+                    "False Discovery Rate": 0.1496221818117618,
+                    "False Negative Rate": 0.23094194792247746,
+                    "False Omission Rate": 0.0017517663187649256,
+                    "False Positive Rate": 0.001027144791017509,
+                    "Jaccard": 0.6773966997720798,
+                    "Negative Predictive Value": 0.998248233681235,
+                    "Precision": 0.8503778181882382,
+                    "Recall": 0.7690580520775225,
+                    "Total Positives Reference": 1002083,
+                    "Total Positives Test": 906256,
+                    "True Negative Rate": 0.9989728552089825
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00011.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00011.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9966348212974768,
+                    "Dice": 0.2672714653326611,
+                    "False Discovery Rate": 0.8416423709514416,
+                    "False Negative Rate": 0.14398808837253196,
+                    "False Omission Rate": 0.00010363843433299516,
+                    "False Positive Rate": 0.00326428236762466,
+                    "Jaccard": 0.15424889703451078,
+                    "Negative Predictive Value": 0.999896361565667,
+                    "Precision": 0.15835762904855846,
+                    "Recall": 0.856011911627468,
+                    "Total Positives Reference": 95369,
+                    "Total Positives Test": 515523,
+                    "True Negative Rate": 0.9967357176323753
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00012.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00012.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9978033093051494,
+                    "Dice": 0.012784820390842501,
+                    "False Discovery Rate": 0.9934802235745742,
+                    "False Negative Rate": 0.6727775856105154,
+                    "False Omission Rate": 2.9308845584395626e-05,
+                    "False Positive Rate": 0.0021675400120749755,
+                    "Jaccard": 0.006433535996518002,
+                    "Negative Predictive Value": 0.9999706911544156,
+                    "Precision": 0.00651977642542575,
+                    "Recall": 0.32722241438948463,
+                    "Total Positives Reference": 5782,
+                    "Total Positives Test": 290194,
+                    "True Negative Rate": 0.997832459987925
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00013.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00013.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.988856977612162,
+                    "Dice": 0.4628559811059074,
+                    "False Discovery Rate": 0.6207183685493411,
+                    "False Negative Rate": 0.40632922336351895,
+                    "False Omission Rate": 0.0033280736937771993,
+                    "False Positive Rate": 0.007921133040975414,
+                    "Jaccard": 0.3011142582715912,
+                    "Negative Predictive Value": 0.9966719263062228,
+                    "Precision": 0.3792816314506588,
+                    "Recall": 0.593670776636481,
+                    "Total Positives Reference": 1075677,
+                    "Total Positives Test": 1683704,
+                    "True Negative Rate": 0.9920788669590246
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00014.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00014.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9963496496588383,
+                    "Dice": 0.14848654905124337,
+                    "False Discovery Rate": 0.9190092478869898,
+                    "False Negative Rate": 0.10884940849576896,
+                    "False Omission Rate": 3.902879629274891e-05,
+                    "False Positive Rate": 0.003612765212549829,
+                    "Jaccard": 0.08019739147731039,
+                    "Negative Predictive Value": 0.9999609712037073,
+                    "Precision": 0.08099075211301017,
+                    "Recall": 0.891150591504231,
+                    "Total Positives Reference": 47506,
+                    "Total Positives Test": 522714,
+                    "True Negative Rate": 0.9963872347874502
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00015.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00015.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9903653455262779,
+                    "Dice": 0.2807610670923003,
+                    "False Discovery Rate": 0.8167081298340618,
+                    "False Negative Rate": 0.40037732321065134,
+                    "False Omission Rate": 0.001268644469445928,
+                    "False Positive Rate": 0.008405385921320785,
+                    "Jaccard": 0.16330543807396053,
+                    "Negative Predictive Value": 0.998731355530554,
+                    "Precision": 0.18329187016593815,
+                    "Recall": 0.5996226767893487,
+                    "Total Positives Reference": 417149,
+                    "Total Positives Test": 1364665,
+                    "True Negative Rate": 0.9915946140786792
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00016.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00016.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9936838752248531,
+                    "Dice": 0.05481621985889807,
+                    "False Discovery Rate": 0.9716548552200932,
+                    "False Negative Rate": 0.17090933841546418,
+                    "False Omission Rate": 3.80007883612378e-05,
+                    "False Positive Rate": 0.006279756778432399,
+                    "Jaccard": 0.0281804837252559,
+                    "Negative Predictive Value": 0.9999619992116388,
+                    "Precision": 0.02834514477990685,
+                    "Recall": 0.8290906615845358,
+                    "Total Positives Reference": 29384,
+                    "Total Positives Test": 859477,
+                    "True Negative Rate": 0.9937202432215676
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00017.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00017.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9951872737607885,
+                    "Dice": 0.07841816205633174,
+                    "False Discovery Rate": 0.9587153181994568,
+                    "False Negative Rate": 0.22011281963176133,
+                    "False Omission Rate": 5.807868809227021e-05,
+                    "False Positive Rate": 0.004756184340216629,
+                    "Jaccard": 0.040809171125518615,
+                    "Negative Predictive Value": 0.9999419213119077,
+                    "Precision": 0.04128468180054327,
+                    "Recall": 0.7798871803682387,
+                    "Total Positives Reference": 34923,
+                    "Total Positives Test": 659712,
+                    "True Negative Rate": 0.9952438156597834
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00018.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00018.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.992817662237605,
+                    "Dice": 0.22771182316583216,
+                    "False Discovery Rate": 0.8676766253288237,
+                    "False Negative Rate": 0.18419772250732713,
+                    "False Omission Rate": 0.00024100753746317835,
+                    "False Positive Rate": 0.006952282495268913,
+                    "Jaccard": 0.12848464834460105,
+                    "Negative Predictive Value": 0.9997589924625369,
+                    "Precision": 0.13232337467117625,
+                    "Recall": 0.8158022774926729,
+                    "Total Positives Reference": 172646,
+                    "Total Positives Test": 1064400,
+                    "True Negative Rate": 0.9930477175047311
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00019.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00019.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9925693361700137,
+                    "Dice": 0.39517232981042894,
+                    "False Discovery Rate": 0.7413274584418186,
+                    "False Negative Rate": 0.16331401118905042,
+                    "False Omission Rate": 0.00047830865506057007,
+                    "False Positive Rate": 0.006977086267071386,
+                    "Jaccard": 0.2462397285085127,
+                    "Negative Predictive Value": 0.9995216913449394,
+                    "Precision": 0.2586725415581815,
+                    "Recall": 0.8366859888109496,
+                    "Total Positives Reference": 385913,
+                    "Total Positives Test": 1248250,
+                    "True Negative Rate": 0.9930229137329286
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00020.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00020.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9957537828733576,
+                    "Dice": 0.5913444250297551,
+                    "False Discovery Rate": 0.5081234563146061,
+                    "False Negative Rate": 0.2587613887624226,
+                    "False Omission Rate": 0.0010792394524879315,
+                    "False Positive Rate": 0.003186927544824747,
+                    "Jaccard": 0.41979347935512634,
+                    "Negative Predictive Value": 0.9989207605475121,
+                    "Precision": 0.4918765436853939,
+                    "Recall": 0.7412386112375774,
+                    "Total Positives Reference": 551311,
+                    "Total Positives Test": 830804,
+                    "True Negative Rate": 0.9968130724551753
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00021.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00021.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9878228582825814,
+                    "Dice": 0.1517999935065547,
+                    "False Discovery Rate": 0.9152589443207882,
+                    "False Negative Rate": 0.272502773162811,
+                    "False Omission Rate": 0.000413474833406564,
+                    "False Positive Rate": 0.01178663778286737,
+                    "Jaccard": 0.08213396438330392,
+                    "Negative Predictive Value": 0.9995865251665934,
+                    "Precision": 0.08474105567921178,
+                    "Recall": 0.727497226837189,
+                    "Total Positives Reference": 199231,
+                    "Total Positives Test": 1710387,
+                    "True Negative Rate": 0.9882133622171326
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00022.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00022.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9958647072083646,
+                    "Dice": 0.6282033320971885,
+                    "False Discovery Rate": 0.5153498268561572,
+                    "False Negative Rate": 0.10741272715918315,
+                    "False Omission Rate": 0.00042346546471410925,
+                    "False Positive Rate": 0.0037294770180452685,
+                    "Jaccard": 0.45794201633218656,
+                    "Negative Predictive Value": 0.9995765345352859,
+                    "Precision": 0.4846501731438429,
+                    "Recall": 0.8925872728408168,
+                    "Total Positives Reference": 384312,
+                    "Total Positives Test": 707793,
+                    "True Negative Rate": 0.9962705229819547
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00023.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00023.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9983463473153291,
+                    "Dice": 0.7580267231080299,
+                    "False Discovery Rate": 0.21538338912800892,
+                    "False Negative Rate": 0.266820027409154,
+                    "False Omission Rate": 0.0009457477519228286,
+                    "False Positive Rate": 0.0007135478824149555,
+                    "Jaccard": 0.6103406065265645,
+                    "Negative Predictive Value": 0.9990542522480772,
+                    "Precision": 0.7846166108719911,
+                    "Recall": 0.733179972590846,
+                    "Total Positives Reference": 469916,
+                    "Total Positives Test": 439110,
+                    "True Negative Rate": 0.999286452117585
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00024.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00024.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9949124167770117,
+                    "Dice": 0.2089635284614998,
+                    "False Discovery Rate": 0.880234538406602,
+                    "False Negative Rate": 0.18126442677609644,
+                    "False Omission Rate": 0.00014961255308367015,
+                    "False Positive Rate": 0.004942866981429761,
+                    "Jaccard": 0.11667184436618432,
+                    "Negative Predictive Value": 0.9998503874469163,
+                    "Precision": 0.11976546159339797,
+                    "Recall": 0.8187355732239036,
+                    "Total Positives Reference": 109172,
+                    "Total Positives Test": 746317,
+                    "True Negative Rate": 0.9950571330185702
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00025.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00025.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9982879176523665,
+                    "Dice": 0.663516548463357,
+                    "False Discovery Rate": 0.41579634804418986,
+                    "False Negative Rate": 0.2322521524458213,
+                    "False Omission Rate": 0.0005121303815611107,
+                    "False Positive Rate": 0.001204079149638937,
+                    "Jaccard": 0.49646447002427774,
+                    "Negative Predictive Value": 0.9994878696184389,
+                    "Precision": 0.5842036519558101,
+                    "Recall": 0.7677478475541787,
+                    "Total Positives Reference": 292458,
+                    "Total Positives Test": 384342,
+                    "True Negative Rate": 0.9987959208503611
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00026.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00026.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9939892626848641,
+                    "Dice": 0.22413545479599878,
+                    "False Discovery Rate": 0.86260442915236,
+                    "False Negative Rate": 0.39206788726166286,
+                    "False Omission Rate": 0.0005634840372820976,
+                    "False Positive Rate": 0.0054586095408121205,
+                    "Jaccard": 0.1262120218579235,
+                    "Negative Predictive Value": 0.9994365159627179,
+                    "Precision": 0.13739557084763993,
+                    "Recall": 0.6079321127383371,
+                    "Total Positives Reference": 189962,
+                    "Total Positives Test": 840522,
+                    "True Negative Rate": 0.9945413904591879
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00027.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00027.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9912687875010441,
+                    "Dice": 0.11702147879908492,
+                    "False Discovery Rate": 0.9366477359256293,
+                    "False Negative Rate": 0.23437593266877577,
+                    "False Omission Rate": 0.00017874830526174115,
+                    "False Positive Rate": 0.008560565788529706,
+                    "Jaccard": 0.06214700671383742,
+                    "Negative Predictive Value": 0.9998212516947382,
+                    "Precision": 0.06335226407437072,
+                    "Recall": 0.7656240673312242,
+                    "Total Positives Reference": 100518,
+                    "Total Positives Test": 1214779,
+                    "True Negative Rate": 0.9914394342114703
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00028.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00028.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9879996284381911,
+                    "Dice": 0.5451267846591658,
+                    "False Discovery Rate": 0.25541007212238476,
+                    "False Negative Rate": 0.5700496871407121,
+                    "False Omission Rate": 0.009626774124020548,
+                    "False Positive Rate": 0.002508519643448226,
+                    "Jaccard": 0.37469023342453833,
+                    "Negative Predictive Value": 0.9903732258759794,
+                    "Precision": 0.7445899278776152,
+                    "Recall": 0.42995031285928786,
+                    "Total Positives Reference": 1938731,
+                    "Total Positives Test": 1119486,
+                    "True Negative Rate": 0.9974914803565518
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00029.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00029.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.992975344140716,
+                    "Dice": 0.5542865919916962,
+                    "False Discovery Rate": 0.5481123644619428,
+                    "False Negative Rate": 0.2833093818038277,
+                    "False Omission Rate": 0.0017434971626314316,
+                    "False Positive Rate": 0.005330498219172197,
+                    "Jaccard": 0.38340004936062155,
+                    "Negative Predictive Value": 0.9982565028373686,
+                    "Precision": 0.4518876355380572,
+                    "Recall": 0.7166906181961723,
+                    "Total Positives Reference": 810665,
+                    "Total Positives Test": 1285709,
+                    "True Negative Rate": 0.9946695017808278
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00030.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00030.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9992352796079649,
+                    "Dice": 0.7047781025160281,
+                    "False Discovery Rate": 0.23555521976465255,
+                    "False Negative Rate": 0.3462486942850066,
+                    "False Omission Rate": 0.00048402854460227897,
+                    "False Positive Rate": 0.00028166308496646586,
+                    "Jaccard": 0.5441369574472853,
+                    "Negative Predictive Value": 0.9995159714553977,
+                    "Precision": 0.7644447802353475,
+                    "Recall": 0.6537513057149934,
+                    "Total Positives Reference": 185722,
+                    "Total Positives Test": 158829,
+                    "True Negative Rate": 0.9997183369150335
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00031.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00031.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9948380490176156,
+                    "Dice": 0.2305877817857459,
+                    "False Discovery Rate": 0.8545147829677361,
+                    "False Negative Rate": 0.44442464495923106,
+                    "False Omission Rate": 0.0006220587867056387,
+                    "False Positive Rate": 0.0045495335973712026,
+                    "Jaccard": 0.13031885923024894,
+                    "Negative Predictive Value": 0.9993779412132944,
+                    "Precision": 0.1454852170322639,
+                    "Recall": 0.5555753550407689,
+                    "Total Positives Reference": 185190,
+                    "Total Positives Test": 707199,
+                    "True Negative Rate": 0.9954504664026288
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00032.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00032.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9968363179298397,
+                    "Dice": 0.007645180612086083,
+                    "False Discovery Rate": 0.996095434235406,
+                    "False Negative Rate": 0.8179265416151859,
+                    "False Omission Rate": 5.4917261173168293e-05,
+                    "False Positive Rate": 0.0031091443152669873,
+                    "Jaccard": 0.00383725857346776,
+                    "Negative Predictive Value": 0.9999450827388269,
+                    "Precision": 0.0039045657645939468,
+                    "Recall": 0.18207345838481412,
+                    "Total Positives Reference": 8903,
+                    "Total Positives Test": 415155,
+                    "True Negative Rate": 0.996890855684733
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00033.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00033.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.998146151291779,
+                    "Dice": 0.7134721726773188,
+                    "False Discovery Rate": 0.3082221721496169,
+                    "False Negative Rate": 0.26342874828159524,
+                    "False Omission Rate": 0.0008282364981798786,
+                    "False Positive Rate": 0.0010316082197400211,
+                    "Jaccard": 0.5545718930635838,
+                    "Negative Predictive Value": 0.9991717635018201,
+                    "Precision": 0.6917778278503831,
+                    "Recall": 0.7365712517184048,
+                    "Total Positives Reference": 416811,
+                    "Total Positives Test": 443800,
+                    "True Negative Rate": 0.99896839178026
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00034.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00034.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9994862745549118,
+                    "Dice": 0.17654218333875613,
+                    "False Discovery Rate": 0.8913752706349912,
+                    "False Negative Rate": 0.5289086114862692,
+                    "False Omission Rate": 6.185914594242364e-05,
+                    "False Positive Rate": 0.00045195049129698184,
+                    "Jaccard": 0.09681725660207777,
+                    "Negative Predictive Value": 0.9999381408540575,
+                    "Precision": 0.10862472936500875,
+                    "Recall": 0.4710913885137308,
+                    "Total Positives Reference": 15549,
+                    "Total Positives Test": 67434,
+                    "True Negative Rate": 0.999548049508703
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00035.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00035.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9966895673256029,
+                    "Dice": 0.779227652832359,
+                    "False Discovery Rate": 0.20965693940872088,
+                    "False Negative Rate": 0.2315794362936534,
+                    "False Omission Rate": 0.0017737714680555049,
+                    "False Positive Rate": 0.0015616457620837298,
+                    "Jaccard": 0.6383070968475604,
+                    "Negative Predictive Value": 0.9982262285319445,
+                    "Precision": 0.7903430605912791,
+                    "Recall": 0.7684205637063466,
+                    "Total Positives Reference": 818121,
+                    "Total Positives Test": 795428,
+                    "True Negative Rate": 0.9984383542379163
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00036.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00036.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9942116141660508,
+                    "Dice": 0.05037827490854554,
+                    "False Discovery Rate": 0.9735883071065727,
+                    "False Negative Rate": 0.45582200905941916,
+                    "False Omission Rate": 0.00012936193479054446,
+                    "False Positive Rate": 0.005661373274044923,
+                    "Jaccard": 0.0258400254060476,
+                    "Negative Predictive Value": 0.9998706380652095,
+                    "Precision": 0.026411692893427274,
+                    "Recall": 0.5441779909405808,
+                    "Total Positives Reference": 37530,
+                    "Total Positives Test": 773256,
+                    "True Negative Rate": 0.9943386267259551
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00037.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00037.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.999141492932018,
+                    "Dice": 0.08273491091940174,
+                    "False Discovery Rate": 0.8995768578281302,
+                    "False Negative Rate": 0.9296553796560626,
+                    "False Omission Rate": 0.000511877908729238,
+                    "False Positive Rate": 0.00034701750851628965,
+                    "Jaccard": 0.04315256736827993,
+                    "Negative Predictive Value": 0.9994881220912708,
+                    "Precision": 0.10042314217186982,
+                    "Recall": 0.07034462034393739,
+                    "Total Positives Reference": 73211,
+                    "Total Positives Test": 51283,
+                    "True Negative Rate": 0.9996529824914837
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00038.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00038.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9999000786605203,
+                    "Dice": 0.7487001077728829,
+                    "False Discovery Rate": 0.23253740600046513,
+                    "False Negative Rate": 0.2691668819903289,
+                    "False Omission Rate": 5.483167188053806e-05,
+                    "False Positive Rate": 4.5109489543948555e-05,
+                    "Jaccard": 0.5983378664249018,
+                    "Negative Predictive Value": 0.9999451683281194,
+                    "Precision": 0.7674625939995349,
+                    "Recall": 0.7308331180096711,
+                    "Total Positives Reference": 27091,
+                    "Total Positives Test": 25798,
+                    "True Negative Rate": 0.999954890510456
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00039.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00039.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.998208672242882,
+                    "Dice": 0.8189587469803127,
+                    "False Discovery Rate": 0.14537181844741953,
+                    "False Negative Rate": 0.21385252299696667,
+                    "False Omission Rate": 0.0011073978976764301,
+                    "False Positive Rate": 0.0006927500984228452,
+                    "Jaccard": 0.6934209494261088,
+                    "Negative Predictive Value": 0.9988926021023236,
+                    "Precision": 0.8546281815525805,
+                    "Recall": 0.7861474770030333,
+                    "Total Positives Reference": 506045,
+                    "Total Positives Test": 465496,
+                    "True Negative Rate": 0.9993072499015772
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00040.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00040.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9937989903817347,
+                    "Dice": 0.202183482564736,
+                    "False Discovery Rate": 0.8607727476181342,
+                    "False Negative Rate": 0.6309286286862466,
+                    "False Omission Rate": 0.0013508366353288776,
+                    "False Positive Rate": 0.004868160521625864,
+                    "Jaccard": 0.1124605768185775,
+                    "Negative Predictive Value": 0.9986491633646711,
+                    "Precision": 0.13922725238186584,
+                    "Recall": 0.3690713713137534,
+                    "Total Positives Reference": 283181,
+                    "Total Positives Test": 750672,
+                    "True Negative Rate": 0.9951318394783741
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00041.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00041.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.995711839037903,
+                    "Dice": 0.6585291281544721,
+                    "False Discovery Rate": 0.42638596312763755,
+                    "False Negative Rate": 0.22704651809206144,
+                    "False Omission Rate": 0.001223392548228567,
+                    "False Positive Rate": 0.003090117619690025,
+                    "Jaccard": 0.4909008029734563,
+                    "Negative Predictive Value": 0.9987766074517714,
+                    "Precision": 0.5736140368723625,
+                    "Recall": 0.7729534819079386,
+                    "Total Positives Reference": 525258,
+                    "Total Positives Test": 707793,
+                    "True Negative Rate": 0.99690988238031
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00042.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00042.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9990529913889923,
+                    "Dice": 0.0,
+                    "False Discovery Rate": NaN,
+                    "False Negative Rate": 1.0,
+                    "False Omission Rate": 0.0009470086110076764,
+                    "False Positive Rate": 0.0,
+                    "Jaccard": 0.0,
+                    "Negative Predictive Value": 0.9990529913889923,
+                    "Precision": NaN,
+                    "Recall": 0.0,
+                    "Total Positives Reference": 125966,
+                    "Total Positives Test": 0,
+                    "True Negative Rate": 1.0
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00043.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00043.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9963078121557004,
+                    "Dice": 0.42334314555473496,
+                    "False Discovery Rate": 0.7145783954692773,
+                    "False Negative Rate": 0.1808052349359266,
+                    "False Omission Rate": 0.00030055211532360217,
+                    "False Positive Rate": 0.003398685654089628,
+                    "Jaccard": 0.26850683733822667,
+                    "Negative Predictive Value": 0.9996994478846764,
+                    "Precision": 0.2854216045307228,
+                    "Recall": 0.8191947650640734,
+                    "Total Positives Reference": 220060,
+                    "Total Positives Test": 631599,
+                    "True Negative Rate": 0.9966013143459104
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00044.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00044.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9994464669036782,
+                    "Dice": 0.4943409702763584,
+                    "False Discovery Rate": 0.4163531395952257,
+                    "False Negative Rate": 0.5712617935766702,
+                    "False Omission Rate": 0.00036068394292158927,
+                    "False Positive Rate": 0.00019313824950850655,
+                    "Jaccard": 0.328321990913901,
+                    "Negative Predictive Value": 0.9996393160570785,
+                    "Precision": 0.5836468604047743,
+                    "Recall": 0.4287382064233298,
+                    "Total Positives Reference": 83944,
+                    "Total Positives Test": 61664,
+                    "True Negative Rate": 0.9998068617504915
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00045.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00045.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9929375212335666,
+                    "Dice": 0.31671451441505855,
+                    "False Discovery Rate": 0.7943518717052349,
+                    "False Negative Rate": 0.3113708248987854,
+                    "False Omission Rate": 0.0007460293016131907,
+                    "False Positive Rate": 0.006337450612655893,
+                    "Jaccard": 0.18815258441143173,
+                    "Negative Predictive Value": 0.9992539706983868,
+                    "Precision": 0.20564812829476511,
+                    "Recall": 0.6886291751012146,
+                    "Total Positives Reference": 316160,
+                    "Total Positives Test": 1058687,
+                    "True Negative Rate": 0.9936625493873441
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00046.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00046.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9995988787098081,
+                    "Dice": 0.8429418777504672,
+                    "False Discovery Rate": 0.23274369952789997,
+                    "False Negative Rate": 0.06480646889002106,
+                    "False Omission Rate": 7.469809626082124e-05,
+                    "False Positive Rate": 0.00032690426381365434,
+                    "Jaccard": 0.7285216373673901,
+                    "Negative Predictive Value": 0.9999253019037392,
+                    "Precision": 0.7672563004721,
+                    "Recall": 0.9351935311099789,
+                    "Total Positives Reference": 153102,
+                    "Total Positives Test": 186613,
+                    "True Negative Rate": 0.9996730957361863
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00047.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00047.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.991354537467044,
+                    "Dice": 0.1789701473676094,
+                    "False Discovery Rate": 0.8994131894341997,
+                    "False Negative Rate": 0.1892243303210448,
+                    "False Omission Rate": 0.0002219952721351492,
+                    "False Positive Rate": 0.008435350400049946,
+                    "Jaccard": 0.09827963397134815,
+                    "Negative Predictive Value": 0.9997780047278648,
+                    "Precision": 0.10058681056580031,
+                    "Recall": 0.8107756696789552,
+                    "Total Positives Reference": 154589,
+                    "Total Positives Test": 1246058,
+                    "True Negative Rate": 0.99156464959995
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00048.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00048.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9998437615471321,
+                    "Dice": 0.8164426151318694,
+                    "False Discovery Rate": 0.1882464521568077,
+                    "False Negative Rate": 0.17881383035428733,
+                    "False Omission Rate": 7.56932502153655e-05,
+                    "False Positive Rate": 8.061171157147662e-05,
+                    "Jaccard": 0.689820895522388,
+                    "Negative Predictive Value": 0.9999243067497846,
+                    "Precision": 0.8117535478431923,
+                    "Recall": 0.8211861696457127,
+                    "Total Positives Reference": 56282,
+                    "Total Positives Test": 56936,
+                    "True Negative Rate": 0.9999193882884285
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00049.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00049.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9991387413549923,
+                    "Dice": 0.7743815976051678,
+                    "False Discovery Rate": 0.2650824445914778,
+                    "False Negative Rate": 0.1816755256048983,
+                    "False Omission Rate": 0.00032879810112938275,
+                    "False Positive Rate": 0.0005340864585301475,
+                    "Jaccard": 0.6318292839696619,
+                    "Negative Predictive Value": 0.9996712018988706,
+                    "Precision": 0.7349175554085222,
+                    "Recall": 0.8183244743951017,
+                    "Total Positives Reference": 240247,
+                    "Total Positives Test": 267513,
+                    "True Negative Rate": 0.9994659135414699
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00050.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00050.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9889079720027789,
+                    "Dice": 0.34041320459322855,
+                    "False Discovery Rate": 0.7848953030736183,
+                    "False Negative Rate": 0.1845480325214397,
+                    "False Omission Rate": 0.0006565143097931966,
+                    "False Positive Rate": 0.010481038914447516,
+                    "Jaccard": 0.205119253500563,
+                    "Negative Predictive Value": 0.9993434856902068,
+                    "Precision": 0.21510469692638165,
+                    "Recall": 0.8154519674785603,
+                    "Total Positives Reference": 466892,
+                    "Total Positives Test": 1769966,
+                    "True Negative Rate": 0.9895189610855525
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00051.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00051.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9965051889404948,
+                    "Dice": 0.0671267541756052,
+                    "False Discovery Rate": 0.9645186953062848,
+                    "False Negative Rate": 0.37908375408375405,
+                    "False Omission Rate": 7.703900134337278e-05,
+                    "False Positive Rate": 0.0034187373758056694,
+                    "Jaccard": 0.03472899959716437,
+                    "Negative Predictive Value": 0.9999229609986566,
+                    "Precision": 0.035481304693715195,
+                    "Recall": 0.620916245916246,
+                    "Total Positives Reference": 26936,
+                    "Total Positives Test": 471375,
+                    "True Negative Rate": 0.9965812626241943
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00052.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00052.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9997232860776292,
+                    "Dice": 0.49288381256802744,
+                    "False Discovery Rate": 0.4671254505913546,
+                    "False Negative Rate": 0.5415235556466909,
+                    "False Omission Rate": 0.00015887224483985364,
+                    "False Positive Rate": 0.00011791635543167978,
+                    "Jaccard": 0.3270377006618642,
+                    "Negative Predictive Value": 0.9998411277551601,
+                    "Precision": 0.5328745494086454,
+                    "Recall": 0.4584764443533091,
+                    "Total Positives Reference": 39014,
+                    "Total Positives Test": 33567,
+                    "True Negative Rate": 0.9998820836445683
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00053.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00053.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9918346951760119,
+                    "Dice": 0.1739873767660397,
+                    "False Discovery Rate": 0.9023926956224934,
+                    "False Negative Rate": 0.19996922581953736,
+                    "False Omission Rate": 0.00021685685665034395,
+                    "False Positive Rate": 0.007958913553969271,
+                    "Jaccard": 0.09528268017003043,
+                    "Negative Predictive Value": 0.9997831431433497,
+                    "Precision": 0.09760730437750662,
+                    "Recall": 0.8000307741804626,
+                    "Total Positives Reference": 142977,
+                    "Total Positives Test": 1171900,
+                    "True Negative Rate": 0.9920410864460307
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00054.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00054.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9987972096069487,
+                    "Dice": 0.3905817031574928,
+                    "False Discovery Rate": 0.7455885022082698,
+                    "False Negative Rate": 0.15961273704312295,
+                    "False Omission Rate": 7.3316700125486e-05,
+                    "False Positive Rate": 0.001130103085926315,
+                    "Jaccard": 0.24268501478066265,
+                    "Negative Predictive Value": 0.9999266832998746,
+                    "Precision": 0.2544114977917302,
+                    "Recall": 0.840387262956877,
+                    "Total Positives Reference": 45034,
+                    "Total Positives Test": 148759,
+                    "True Negative Rate": 0.9988698969140737
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00055.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00055.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9952930891887607,
+                    "Dice": 0.17741655761741845,
+                    "False Discovery Rate": 0.8976722474731783,
+                    "False Negative Rate": 0.333504437183499,
+                    "False Omission Rate": 0.0002552608420899916,
+                    "False Positive Rate": 0.004456310088453375,
+                    "Jaccard": 0.0973434485860849,
+                    "Negative Predictive Value": 0.99974473915791,
+                    "Precision": 0.10232775252682166,
+                    "Recall": 0.666495562816501,
+                    "Total Positives Reference": 101303,
+                    "Total Positives Test": 659821,
+                    "True Negative Rate": 0.9955436899115466
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00056.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00056.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9970624810218245,
+                    "Dice": 0.6418234568863181,
+                    "False Discovery Rate": 0.46515202209786066,
+                    "False Negative Rate": 0.19770964725726015,
+                    "False Omission Rate": 0.0006517901427489995,
+                    "False Positive Rate": 0.002296469712783522,
+                    "Jaccard": 0.47256261355751916,
+                    "Negative Predictive Value": 0.999348209857251,
+                    "Precision": 0.5348479779021393,
+                    "Recall": 0.8022903527427399,
+                    "Total Positives Reference": 436352,
+                    "Total Positives Test": 654543,
+                    "True Negative Rate": 0.9977035302872165
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00057.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00057.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9924993513871369,
+                    "Dice": 0.2239005667718895,
+                    "False Discovery Rate": 0.87081447517006,
+                    "False Negative Rate": 0.16088462345779786,
+                    "False Omission Rate": 0.00020919539023821966,
+                    "False Positive Rate": 0.007302621207592508,
+                    "Jaccard": 0.12606308103198025,
+                    "Negative Predictive Value": 0.9997908046097618,
+                    "Precision": 0.12918552482993992,
+                    "Recall": 0.8391153765422021,
+                    "Total Positives Reference": 171508,
+                    "Total Positives Test": 1114018,
+                    "True Negative Rate": 0.9926973787924075
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00058.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00058.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9995619579590606,
+                    "Dice": 0.5535856573705179,
+                    "False Discovery Rate": 0.33956710906365395,
+                    "False Negative Rate": 0.5235036534859796,
+                    "False Omission Rate": 0.00029851851303649925,
+                    "False Positive Rate": 0.00013972593647071374,
+                    "Jaccard": 0.3827296515631456,
+                    "Negative Predictive Value": 0.9997014814869635,
+                    "Precision": 0.660432890936346,
+                    "Recall": 0.4764963465140204,
+                    "Total Positives Reference": 75818,
+                    "Total Positives Test": 54702,
+                    "True Negative Rate": 0.9998602740635293
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00059.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00059.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9938857552736868,
+                    "Dice": 0.1162146772321642,
+                    "False Discovery Rate": 0.9347334142167693,
+                    "False Negative Rate": 0.4702700560718036,
+                    "False Omission Rate": 0.0003590898027391948,
+                    "False Positive Rate": 0.005761739152102985,
+                    "Jaccard": 0.06169210250635704,
+                    "Negative Predictive Value": 0.9996409101972608,
+                    "Precision": 0.06526658578323076,
+                    "Recall": 0.5297299439281964,
+                    "Total Positives Reference": 100942,
+                    "Total Positives Test": 819286,
+                    "True Negative Rate": 0.994238260847897
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00060.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00060.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9907942983414681,
+                    "Dice": 0.2948560766823206,
+                    "False Discovery Rate": 0.8238487531298186,
+                    "False Negative Rate": 0.09586588311743349,
+                    "False Omission Rate": 0.000206329718416904,
+                    "False Positive Rate": 0.009020829528345375,
+                    "Jaccard": 0.17292151861798413,
+                    "Negative Predictive Value": 0.9997936702815831,
+                    "Precision": 0.1761512468701814,
+                    "Recall": 0.9041341168825665,
+                    "Total Positives Reference": 283156,
+                    "Total Positives Test": 1453359,
+                    "True Negative Rate": 0.9909791704716546
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00061.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00061.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9915452382944643,
+                    "Dice": 0.11547237303772707,
+                    "False Discovery Rate": 0.9383566475260195,
+                    "False Negative Rate": 0.08909625621998585,
+                    "False Omission Rate": 5.4466645764016686e-05,
+                    "False Positive Rate": 0.008405875385885886,
+                    "Jaccard": 0.061273908318266734,
+                    "Negative Predictive Value": 0.999945533354236,
+                    "Precision": 0.06164335247398042,
+                    "Recall": 0.9109037437800142,
+                    "Total Positives Reference": 80587,
+                    "Total Positives Test": 1190834,
+                    "True Negative Rate": 0.9915941246141141
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00062.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00062.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9249567605097988,
+                    "Dice": 0.20437400080205778,
+                    "False Discovery Rate": 0.15986328731856714,
+                    "False Negative Rate": 0.8836627358652926,
+                    "False Omission Rate": 0.07405887046570543,
+                    "False Positive Rate": 0.001999656874257738,
+                    "Jaccard": 0.11381768859068991,
+                    "Negative Predictive Value": 0.9259411295342945,
+                    "Precision": 0.8401367126814329,
+                    "Recall": 0.1163372641347074,
+                    "Total Positives Reference": 8134728,
+                    "Total Positives Test": 1126450,
+                    "True Negative Rate": 0.9980003431257423
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00063.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00063.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9931389426862294,
+                    "Dice": 0.20451635341114818,
+                    "False Discovery Rate": 0.8793047750930554,
+                    "False Negative Rate": 0.33058299239376665,
+                    "False Omission Rate": 0.00043875982232041005,
+                    "False Positive Rate": 0.006433980694836028,
+                    "Jaccard": 0.11390599619200009,
+                    "Negative Predictive Value": 0.9995612401776796,
+                    "Precision": 0.12069522490694463,
+                    "Recall": 0.6694170076062333,
+                    "Total Positives Reference": 175251,
+                    "Total Positives Test": 972002,
+                    "True Negative Rate": 0.993566019305164
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00064.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00064.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9987374922593101,
+                    "Dice": 0.0,
+                    "False Discovery Rate": 1.0,
+                    "False Negative Rate": 1.0,
+                    "False Omission Rate": 0.0008516099677791642,
+                    "False Positive Rate": 0.00041159837292914503,
+                    "Jaccard": 0.0,
+                    "Negative Predictive Value": 0.9991483900322209,
+                    "Precision": 0.0,
+                    "Recall": 0.0,
+                    "Total Positives Reference": 113230,
+                    "Total Positives Test": 54702,
+                    "True Negative Rate": 0.9995884016270709
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00065.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00065.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9990957328414004,
+                    "Dice": 0.002303314107323016,
+                    "False Discovery Rate": 0.9986645770792866,
+                    "False Negative Rate": 0.991630930972472,
+                    "False Omission Rate": 0.00012377527700167985,
+                    "False Positive Rate": 0.0007806859973539249,
+                    "Jaccard": 0.0011529848968507314,
+                    "Negative Predictive Value": 0.9998762247229983,
+                    "Precision": 0.0013354229207134028,
+                    "Recall": 0.008369069027528013,
+                    "Total Positives Reference": 14458,
+                    "Total Positives Test": 90608,
+                    "True Negative Rate": 0.9992193140026461
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00066.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00066.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9991212269849128,
+                    "Dice": 0.8345934133343557,
+                    "False Discovery Rate": 0.15310068471833183,
+                    "False Negative Rate": 0.17735998790718766,
+                    "False Omission Rate": 0.00047924002231014296,
+                    "False Positive Rate": 0.00040187059103191647,
+                    "Jaccard": 0.7161392623686972,
+                    "Negative Predictive Value": 0.9995207599776899,
+                    "Precision": 0.8468993152816682,
+                    "Recall": 0.8226400120928123,
+                    "Total Positives Reference": 264620,
+                    "Total Positives Test": 257040,
+                    "True Negative Rate": 0.9995981294089681
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00067.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00067.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9997943561560317,
+                    "Dice": 0.6643728599448157,
+                    "False Discovery Rate": 0.3983683545065928,
+                    "False Negative Rate": 0.2582764251781473,
+                    "False Omission Rate": 7.08973759718717e-05,
+                    "False Positive Rate": 0.0001348074453969561,
+                    "Jaccard": 0.4974238992458372,
+                    "Negative Predictive Value": 0.9999291026240281,
+                    "Precision": 0.6016316454934072,
+                    "Recall": 0.7417235748218527,
+                    "Total Positives Reference": 26944,
+                    "Total Positives Test": 33218,
+                    "True Negative Rate": 0.999865192554603
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00068.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00068.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9973203549113356,
+                    "Dice": 0.21056734824054715,
+                    "False Discovery Rate": 0.8639889442376416,
+                    "False Negative Rate": 0.5339744909463446,
+                    "False Omission Rate": 0.00041056003495839515,
+                    "False Positive Rate": 0.002271906039446492,
+                    "Jaccard": 0.11767268694550063,
+                    "Negative Predictive Value": 0.9995894399650416,
+                    "Precision": 0.13601105576235833,
+                    "Recall": 0.4660255090536553,
+                    "Total Positives Reference": 102003,
+                    "Total Positives Test": 349501,
+                    "True Negative Rate": 0.9977280939605535
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00069.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00069.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9980001447961026,
+                    "Dice": 0.4656352072895867,
+                    "False Discovery Rate": 0.6244540069731572,
+                    "False Negative Rate": 0.3874118629554848,
+                    "False Omission Rate": 0.0005523185843764824,
+                    "False Positive Rate": 0.001450881742259047,
+                    "Jaccard": 0.3034709930140243,
+                    "Negative Predictive Value": 0.9994476814156236,
+                    "Precision": 0.3755459930268428,
+                    "Recall": 0.6125881370445152,
+                    "Total Positives Reference": 189194,
+                    "Total Positives Test": 308612,
+                    "True Negative Rate": 0.998549118257741
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00070.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00070.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9917425774894085,
+                    "Dice": 0.032815438912879615,
+                    "False Discovery Rate": 0.9832357751958211,
+                    "False Negative Rate": 0.2284472049689441,
+                    "False Omission Rate": 4.1826140990894865e-05,
+                    "False Positive Rate": 0.008217437819609374,
+                    "Jaccard": 0.01668142357458565,
+                    "Negative Predictive Value": 0.9999581738590091,
+                    "Precision": 0.016764224804178954,
+                    "Recall": 0.7715527950310559,
+                    "Total Positives Reference": 24150,
+                    "Total Positives Test": 1111474,
+                    "True Negative Rate": 0.9917825621803906
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00071.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00071.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9939077979617731,
+                    "Dice": 0.5178295809795589,
+                    "False Discovery Rate": 0.6014192205736604,
+                    "False Negative Rate": 0.26110529997894405,
+                    "False Omission Rate": 0.001165582285847801,
+                    "False Positive Rate": 0.004958137966580289,
+                    "Jaccard": 0.34937249747690274,
+                    "Negative Predictive Value": 0.9988344177141522,
+                    "Precision": 0.39858077942633957,
+                    "Recall": 0.738894700021056,
+                    "Total Positives Reference": 588908,
+                    "Total Positives Test": 1091726,
+                    "True Negative Rate": 0.9950418620334197
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00072.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00072.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9944545197772606,
+                    "Dice": 0.4766228218929646,
+                    "False Discovery Rate": 0.6032878628064949,
+                    "False Negative Rate": 0.40315280495151373,
+                    "False Omission Rate": 0.0017165198707968655,
+                    "False Positive Rate": 0.0038562000771102944,
+                    "Jaccard": 0.31287249720074,
+                    "Negative Predictive Value": 0.9982834801292031,
+                    "Precision": 0.39671213719350507,
+                    "Recall": 0.5968471950484863,
+                    "Total Positives Reference": 562737,
+                    "Total Positives Test": 846629,
+                    "True Negative Rate": 0.9961437999228897
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00073.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00073.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9949907389886361,
+                    "Dice": 0.4784121554183905,
+                    "False Discovery Rate": 0.6239724847410908,
+                    "False Negative Rate": 0.34258791131955724,
+                    "False Omission Rate": 0.0012045204463261106,
+                    "False Positive Rate": 0.0038254674289813773,
+                    "Jaccard": 0.3144163888545911,
+                    "Negative Predictive Value": 0.9987954795536739,
+                    "Precision": 0.37602751525890926,
+                    "Recall": 0.6574120886804428,
+                    "Total Positives Reference": 464815,
+                    "Total Positives Test": 812640,
+                    "True Negative Rate": 0.9961745325710186
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00074.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00074.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9979543378047964,
+                    "Dice": 0.3749399870900458,
+                    "False Discovery Rate": 0.7578036431840169,
+                    "False Negative Rate": 0.17033497687185484,
+                    "False Omission Rate": 0.0001262834940305555,
+                    "False Positive Rate": 0.00192111928513794,
+                    "Jaccard": 0.23072377888287962,
+                    "Negative Predictive Value": 0.9998737165059695,
+                    "Precision": 0.242196356815983,
+                    "Recall": 0.8296650231281452,
+                    "Total Positives Reference": 98365,
+                    "Total Positives Test": 336958,
+                    "True Negative Rate": 0.9980788807148621
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00075.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00075.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.997344322199746,
+                    "Dice": 0.3328145599051098,
+                    "False Discovery Rate": 0.7929177664592828,
+                    "False Negative Rate": 0.15279580749074473,
+                    "False Omission Rate": 0.000119843874730916,
+                    "False Positive Rate": 0.0025382017022189673,
+                    "Jaccard": 0.19962659935787777,
+                    "Negative Predictive Value": 0.999880156125269,
+                    "Precision": 0.2070822335407172,
+                    "Recall": 0.8472041925092553,
+                    "Total Positives Reference": 103995,
+                    "Total Positives Test": 425459,
+                    "True Negative Rate": 0.997461798297781
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00076.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00076.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9921166416055136,
+                    "Dice": 0.08885355299515145,
+                    "False Discovery Rate": 0.9529993923722028,
+                    "False Negative Rate": 0.1887247512812783,
+                    "False Omission Rate": 9.015606102090271e-05,
+                    "False Positive Rate": 0.007797634217388549,
+                    "Jaccard": 0.04649227856630394,
+                    "Negative Predictive Value": 0.9999098439389791,
+                    "Precision": 0.04700060762779718,
+                    "Recall": 0.8112752487187217,
+                    "Total Positives Reference": 63023,
+                    "Total Positives Test": 1087837,
+                    "True Negative Rate": 0.9922023657826115
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00077.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00077.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9996759303844998,
+                    "Dice": 0.8053465793632875,
+                    "False Discovery Rate": 0.11017532655443907,
+                    "False Negative Rate": 0.264481965076668,
+                    "False Omission Rate": 0.0002412454624843293,
+                    "False Positive Rate": 8.308163220727138e-05,
+                    "Jaccard": 0.6741257049547166,
+                    "Negative Predictive Value": 0.9997587545375157,
+                    "Precision": 0.8898246734455609,
+                    "Recall": 0.735518034923332,
+                    "Total Positives Reference": 121237,
+                    "Total Positives Test": 100213,
+                    "True Negative Rate": 0.9999169183677927
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00078.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00078.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9943361718932722,
+                    "Dice": 0.3253731450206139,
+                    "False Discovery Rate": 0.7990487567471904,
+                    "False Negative Rate": 0.14563307687966742,
+                    "False Omission Rate": 0.00023440974244676144,
+                    "False Positive Rate": 0.005439707806779381,
+                    "Jaccard": 0.19429590780366354,
+                    "Negative Predictive Value": 0.9997655902575533,
+                    "Precision": 0.2009512432528095,
+                    "Recall": 0.8543669231203326,
+                    "Total Positives Reference": 212644,
+                    "Total Positives Test": 904080,
+                    "True Negative Rate": 0.9945602921932206
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00079.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00079.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9932994062382461,
+                    "Dice": 0.40826550861731853,
+                    "False Discovery Rate": 0.7084225150427456,
+                    "False Negative Rate": 0.31933560024440133,
+                    "False Omission Rate": 0.0010931255867539086,
+                    "False Positive Rate": 0.00563527141535225,
+                    "Jaccard": 0.2564909605386972,
+                    "Negative Predictive Value": 0.9989068744132461,
+                    "Precision": 0.29157748495725444,
+                    "Recall": 0.6806643997555987,
+                    "Total Positives Reference": 451716,
+                    "Total Positives Test": 1054495,
+                    "True Negative Rate": 0.9943647285846478
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00080.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00080.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9980512895461199,
+                    "Dice": 0.24791455704466256,
+                    "False Discovery Rate": 0.8509600625156987,
+                    "False Negative Rate": 0.26345189041946104,
+                    "False Omission Rate": 0.00011513020668090923,
+                    "False Positive Rate": 0.0018346283709498312,
+                    "Jaccard": 0.14149684197278167,
+                    "Negative Predictive Value": 0.9998848697933191,
+                    "Precision": 0.1490399374843013,
+                    "Recall": 0.736548109580539,
+                    "Total Positives Reference": 58003,
+                    "Total Positives Test": 286648,
+                    "True Negative Rate": 0.9981653716290502
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00081.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00081.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9994154664707824,
+                    "Dice": 0.4572078567080009,
+                    "False Discovery Rate": 0.6269249875807252,
+                    "False Negative Rate": 0.40966447395639405,
+                    "False Omission Rate": 0.0001709525659286115,
+                    "False Positive Rate": 0.0004138663631071404,
+                    "Jaccard": 0.2963509107146566,
+                    "Negative Predictive Value": 0.9998290474340714,
+                    "Precision": 0.3730750124192747,
+                    "Recall": 0.590335526043606,
+                    "Total Positives Reference": 48342,
+                    "Total Positives Test": 76494,
+                    "True Negative Rate": 0.9995861336368929
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00082.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00082.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9924624757442095,
+                    "Dice": 0.34418786585234235,
+                    "False Discovery Rate": 0.7821896113379027,
+                    "False Negative Rate": 0.18007978060334084,
+                    "False Omission Rate": 0.0004383995088808714,
+                    "False Positive Rate": 0.007120282605623807,
+                    "Jaccard": 0.20786649569367707,
+                    "Negative Predictive Value": 0.9995616004911191,
+                    "Precision": 0.21781038866209734,
+                    "Recall": 0.8199202193966592,
+                    "Total Positives Reference": 320880,
+                    "Total Positives Test": 1207913,
+                    "True Negative Rate": 0.9928797173943762
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00083.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00083.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9994951983853205,
+                    "Dice": 0.1456164906476651,
+                    "False Discovery Rate": 0.90972057872233,
+                    "False Negative Rate": 0.6237753961470183,
+                    "False Omission Rate": 7.135698288926943e-05,
+                    "False Positive Rate": 0.0004335282031039389,
+                    "Jaccard": 0.07852555305483888,
+                    "Negative Predictive Value": 0.9999286430171107,
+                    "Precision": 0.09027942127766997,
+                    "Recall": 0.3762246038529818,
+                    "Total Positives Reference": 15209,
+                    "Total Positives Test": 63381,
+                    "True Negative Rate": 0.9995664717968961
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00084.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00084.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9925178305574357,
+                    "Dice": 0.17938413283706878,
+                    "False Discovery Rate": 0.8993121667164963,
+                    "False Negative Rate": 0.17869304239495643,
+                    "False Omission Rate": 0.000179384765055869,
+                    "False Positive Rate": 0.0073115218567485485,
+                    "Jaccard": 0.09852936913957769,
+                    "Negative Predictive Value": 0.9998206152349441,
+                    "Precision": 0.10068783328350375,
+                    "Recall": 0.8213069576050436,
+                    "Total Positives Reference": 132445,
+                    "Total Positives Test": 1080349,
+                    "True Negative Rate": 0.9926884781432515
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00085.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00085.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9942141618706191,
+                    "Dice": 0.7518683779915228,
+                    "False Discovery Rate": 0.27857363958038706,
+                    "False Negative Rate": 0.21500729638301797,
+                    "False Omission Rate": 0.002430484766623529,
+                    "False Positive Rate": 0.00342311097566117,
+                    "Jaccard": 0.6023951037965258,
+                    "Negative Predictive Value": 0.9975695152333764,
+                    "Precision": 0.7214263604196129,
+                    "Recall": 0.784992703616982,
+                    "Total Positives Reference": 1294477,
+                    "Total Positives Test": 1408536,
+                    "True Negative Rate": 0.9965768890243388
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00086.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00086.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9979871537439152,
+                    "Dice": 0.3911419981898312,
+                    "False Discovery Rate": 0.7460077438104155,
+                    "False Negative Rate": 0.14973552820208613,
+                    "False Omission Rate": 0.00011415022895204505,
+                    "False Positive Rate": 0.0019004316981079405,
+                    "Jaccard": 0.2431177877412096,
+                    "Negative Predictive Value": 0.999885849771048,
+                    "Precision": 0.25399225618958454,
+                    "Recall": 0.8502644717979139,
+                    "Total Positives Reference": 101145,
+                    "Total Positives Test": 338593,
+                    "True Negative Rate": 0.9980995683018921
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00087.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00087.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9989183595819497,
+                    "Dice": 0.5958391154608941,
+                    "False Discovery Rate": 0.43070481507327285,
+                    "False Negative Rate": 0.3750206256040356,
+                    "False Omission Rate": 0.0004790995656499208,
+                    "False Positive Rate": 0.0006039823662682409,
+                    "Jaccard": 0.42433820940430844,
+                    "Negative Predictive Value": 0.99952090043435,
+                    "Precision": 0.5692951849267271,
+                    "Recall": 0.6249793743959644,
+                    "Total Positives Reference": 169692,
+                    "Total Positives Test": 186290,
+                    "True Negative Rate": 0.9993960176337318
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00088.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00088.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9962387295292254,
+                    "Dice": 0.24044683170331055,
+                    "False Discovery Rate": 0.8510779542189157,
+                    "False Negative Rate": 0.3761403564056911,
+                    "False Omission Rate": 0.0003603861818163044,
+                    "False Positive Rate": 0.003405574884826068,
+                    "Jaccard": 0.1366522115021234,
+                    "Negative Predictive Value": 0.9996396138181837,
+                    "Precision": 0.14892204578108428,
+                    "Recall": 0.6238596435943089,
+                    "Total Positives Reference": 126934,
+                    "Total Positives Test": 531748,
+                    "True Negative Rate": 0.9965944251151739
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00089.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00089.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9941158126741397,
+                    "Dice": 0.03497921837413831,
+                    "False Discovery Rate": 0.9819103718544004,
+                    "False Negative Rate": 0.472715783213144,
+                    "False Omission Rate": 9.617298595734498e-05,
+                    "False Positive Rate": 0.005789752269472537,
+                    "Jaccard": 0.017800940682773058,
+                    "Negative Predictive Value": 0.9999038270140427,
+                    "Precision": 0.018089628145599508,
+                    "Recall": 0.527284216786856,
+                    "Total Positives Reference": 26902,
+                    "Total Positives Test": 784151,
+                    "True Negative Rate": 0.9942102477305275
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00090.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00090.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9980350281769758,
+                    "Dice": 0.7211946272070181,
+                    "False Discovery Rate": 0.12782771574232699,
+                    "False Negative Rate": 0.385226016236506,
+                    "False Omission Rate": 0.0015971479360038184,
+                    "False Positive Rate": 0.0003740240102201309,
+                    "Jaccard": 0.5639596474574462,
+                    "Negative Predictive Value": 0.9984028520639961,
+                    "Precision": 0.872172284257673,
+                    "Recall": 0.614773983763494,
+                    "Total Positives Reference": 549872,
+                    "Total Positives Test": 387592,
+                    "True Negative Rate": 0.9996259759897799
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00091.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00091.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.996224583935309,
+                    "Dice": 0.4966427460911245,
+                    "False Discovery Rate": 0.6566297974288542,
+                    "False Negative Rate": 0.10292256526473786,
+                    "False Omission Rate": 0.0002148549649626766,
+                    "False Positive Rate": 0.003569136828624364,
+                    "Jaccard": 0.3303557719230109,
+                    "Negative Predictive Value": 0.9997851450350373,
+                    "Precision": 0.34337020257114587,
+                    "Recall": 0.8970774347352621,
+                    "Total Positives Reference": 203862,
+                    "Total Positives Test": 532603,
+                    "True Negative Rate": 0.9964308631713756
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00092.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00092.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9997068668311148,
+                    "Dice": 0.586412092283214,
+                    "False Discovery Rate": 0.5465253625565982,
+                    "False Negative Rate": 0.17038326480386567,
+                    "False Omission Rate": 4.269908329122217e-05,
+                    "False Positive Rate": 0.00025051640527140595,
+                    "Jaccard": 0.4148394939444419,
+                    "Negative Predictive Value": 0.9999573009167088,
+                    "Precision": 0.4534746374434018,
+                    "Recall": 0.8296167351961343,
+                    "Total Positives Reference": 33319,
+                    "Total Positives Test": 60956,
+                    "True Negative Rate": 0.9997494835947286
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00093.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00093.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9960395183597474,
+                    "Dice": 0.0,
+                    "False Discovery Rate": 1.0,
+                    "False Negative Rate": 1.0,
+                    "False Omission Rate": 0.001848753475947871,
+                    "False Positive Rate": 0.0021195496947903347,
+                    "Jaccard": 0.0,
+                    "Negative Predictive Value": 0.9981512465240522,
+                    "Precision": 0.0,
+                    "Recall": 0.0,
+                    "Total Positives Reference": 245391,
+                    "Total Positives Test": 281411,
+                    "True Negative Rate": 0.9978804503052097
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00094.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00094.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9958270229372513,
+                    "Dice": 0.04174385020552545,
+                    "False Discovery Rate": 0.9744261213162192,
+                    "False Negative Rate": 0.886477807303355,
+                    "False Omission Rate": 0.0007122956047960749,
+                    "False Positive Rate": 0.003465988096695183,
+                    "Jaccard": 0.02131684877379632,
+                    "Negative Predictive Value": 0.999287704395204,
+                    "Precision": 0.025573878683780787,
+                    "Recall": 0.11352219269664504,
+                    "Total Positives Reference": 106499,
+                    "Total Positives Test": 472748,
+                    "True Negative Rate": 0.9965340119033048
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00095.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00095.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9937372001861751,
+                    "Dice": 0.10110667023471423,
+                    "False Discovery Rate": 0.9456703249807498,
+                    "False Negative Rate": 0.2726962245404868,
+                    "False Omission Rate": 0.0001329223913178599,
+                    "False Positive Rate": 0.006133709570411039,
+                    "Jaccard": 0.053245049971928436,
+                    "Negative Predictive Value": 0.9998670776086821,
+                    "Precision": 0.05432967501925021,
+                    "Recall": 0.7273037754595132,
+                    "Total Positives Reference": 64416,
+                    "Total Positives Test": 862328,
+                    "True Negative Rate": 0.993866290429589
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00096.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00096.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9967783919708681,
+                    "Dice": 0.28126672000295194,
+                    "False Discovery Rate": 0.8356404978927766,
+                    "False Negative Rate": 0.02578223941812774,
+                    "False Omission Rate": 1.674660358653534e-05,
+                    "False Positive Rate": 0.003207000740691024,
+                    "Jaccard": 0.16364768360302828,
+                    "Negative Predictive Value": 0.9999832533964135,
+                    "Precision": 0.16435950210722336,
+                    "Recall": 0.9742177605818723,
+                    "Total Positives Reference": 86067,
+                    "Total Positives Test": 510150,
+                    "True Negative Rate": 0.996792999259309
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00097.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00097.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9951875444077092,
+                    "Dice": 0.6789758351867965,
+                    "False Discovery Rate": 0.41987134990050445,
+                    "False Negative Rate": 0.18157385365523393,
+                    "False Omission Rate": 0.0011390790273969344,
+                    "False Positive Rate": 0.0037064169932374824,
+                    "Jaccard": 0.5139768471099888,
+                    "Negative Predictive Value": 0.998860920972603,
+                    "Precision": 0.5801286500994955,
+                    "Recall": 0.8184261463447661,
+                    "Total Positives Reference": 827129,
+                    "Total Positives Test": 1166886,
+                    "True Negative Rate": 0.9962935830067625
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00098.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00098.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9971467950555514,
+                    "Dice": 0.5966384946986252,
+                    "False Discovery Rate": 0.5208501906800638,
+                    "False Negative Rate": 0.20953842687769297,
+                    "False Omission Rate": 0.0005618489484223495,
+                    "False Positive Rate": 0.0022999702848358616,
+                    "Jaccard": 0.4251495373392729,
+                    "Negative Predictive Value": 0.9994381510515776,
+                    "Precision": 0.4791498093199362,
+                    "Recall": 0.790461573122307,
+                    "Total Positives Reference": 355090,
+                    "Total Positives Test": 585798,
+                    "True Negative Rate": 0.9977000297151641
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00099.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00099.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9955696452337611,
+                    "Dice": 0.02211963520025488,
+                    "False Discovery Rate": 0.9885461616323051,
+                    "False Negative Rate": 0.6785007959095075,
+                    "False Omission Rate": 0.00010621241521044242,
+                    "False Positive Rate": 0.004325281116842827,
+                    "Jaccard": 0.011183505126961727,
+                    "Negative Predictive Value": 0.9998937875847895,
+                    "Precision": 0.011453838367694848,
+                    "Recall": 0.3214992040904925,
+                    "Total Positives Reference": 20731,
+                    "Total Positives Test": 581901,
+                    "True Negative Rate": 0.9956747188831572
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00100.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00100.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9997839335417466,
+                    "Dice": 0.7665995322245323,
+                    "False Discovery Rate": 0.29780554935654246,
+                    "False Negative Rate": 0.15598791151803437,
+                    "False Omission Rate": 6.561240773278668e-05,
+                    "False Positive Rate": 0.00015055049910273066,
+                    "Jaccard": 0.6215333561589718,
+                    "Negative Predictive Value": 0.9999343875922672,
+                    "Precision": 0.7021944506434575,
+                    "Recall": 0.8440120884819656,
+                    "Total Positives Reference": 55921,
+                    "Total Positives Test": 67215,
+                    "True Negative Rate": 0.9998494495008973
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00101.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00101.nii.gz"
+            },
+            {
+                "1": {
+                    "Accuracy": 0.9914364908581861,
+                    "Dice": 0.5557337535199731,
+                    "False Discovery Rate": 0.481779497661427,
+                    "False Negative Rate": 0.40089810540124626,
+                    "False Omission Rate": 0.003621517069373972,
+                    "False Positive Rate": 0.005024340518136605,
+                    "Jaccard": 0.3847862226749468,
+                    "Negative Predictive Value": 0.996378482930626,
+                    "Precision": 0.518220502338573,
+                    "Recall": 0.5991018945987537,
+                    "Total Positives Reference": 1189170,
+                    "Total Positives Test": 1374770,
+                    "True Negative Rate": 0.9949756594818634
+                },
+                "reference": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_preprocessed/Task002_Breast/gt_segmentations/case_00102.nii.gz",
+                "test": "/home/ubuntu/liuyiyao/my_nnUNet_data_raw_base/nnUNet_trained_models/nnUNet/3d_fullres/Task002_Breast/nnUNetTrainerV2__nnUNetPlansv2.1/all/validation_raw_postprocessed/case_00102.nii.gz"
+            }
+        ],
+        "mean": {
+            "1": {
+                "Accuracy": 0.9951231403624049,
+                "Dice": 0.3809791173514056,
+                "False Discovery Rate": 0.6596099809210204,
+                "False Negative Rate": 0.33850905232811546,
+                "False Omission Rate": 0.001402750894337632,
+                "False Positive Rate": 0.0034973547068614767,
+                "Jaccard": 0.2696608396941612,
+                "Negative Predictive Value": 0.9985972491056623,
+                "Precision": 0.3403900190789794,
+                "Recall": 0.6614909476718844,
+                "Total Positives Reference": 354876.2524271845,
+                "Total Positives Test": 655922.572815534,
+                "True Negative Rate": 0.9965026452931386
+            }
+        }
+    },
+    "task": "",
+    "timestamp": "2021-03-29 05:15:40.734712"
+}

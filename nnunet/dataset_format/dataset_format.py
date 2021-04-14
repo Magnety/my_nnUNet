@@ -1,21 +1,22 @@
 import SimpleITK as sitk
 import numpy as np
 import os
-img_path = "/home/ubuntu/liuyiyao/Data/Breast_w_class/img"
-mask_path = "/home/ubuntu/liuyiyao/Data//Breast_w_class/label"
+img_path = "/home/ubuntu/liuyiyao/Data/Breast_slicer/img"
+mask_path = "/home/ubuntu/liuyiyao/Data//Breast_slicer/label"
 label_path = "/home/ubuntu/liuyiyao/3D_breast_Seg/Dataset/great_data_large"
 
 
 mask_names = os.listdir(mask_path)
 j=0
 for name in mask_names:
-    match_txt_dir = "/home/ubuntu/liuyiyao/Data/Breast_c"
+    print(name)
+    match_txt_dir = "/home/ubuntu/liuyiyao/Data/Breast_s"
     if not os.path.isdir(match_txt_dir):
         os.makedirs(match_txt_dir)
     match_txt = match_txt_dir+'/match.txt'
     open(match_txt, 'a').write(
         "Name: {} >> No: {:0>5d}\n".format(name,j))
-    dir = "/home/ubuntu/liuyiyao/Data/Breast_c/case_%05.0d"%j
+    dir = "/home/ubuntu/liuyiyao/Data/Breast_s/case_%05.0d"%j
     if not os.path.isdir(dir):
         os.makedirs(dir)
     mask_data = sitk.ReadImage(mask_path + '/' + name)

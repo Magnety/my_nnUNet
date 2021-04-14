@@ -48,7 +48,7 @@ class nnUNetTrainerV2(nnUNetTrainer):
         super().__init__(plans_file, fold, output_folder, dataset_directory, batch_dice, stage, unpack_data,
                          deterministic, fp16)
         self.max_num_epochs = 300
-        self.initial_lr = 1e-2
+        self.initial_lr = 1e-3
         self.deep_supervision_scales = None
         self.ds_loss_weights = None
         self.pin_memory = True
@@ -213,8 +213,8 @@ class nnUNetTrainerV2(nnUNetTrainer):
         """
         We need to wrap this because we need to enforce self.network.do_ds = False for prediction
         """
-        #ds = self.network.do_ds
-        #self.network.do_ds = False
+        ds = self.network.do_ds
+        self.network.do_ds = False
         ret = super().predict_preprocessed_data_return_seg_and_softmax(data,
                                                                        do_mirroring=do_mirroring,
                                                                        mirror_axes=mirror_axes,
@@ -224,7 +224,7 @@ class nnUNetTrainerV2(nnUNetTrainer):
                                                                        pad_kwargs=pad_kwargs, all_in_gpu=all_in_gpu,
                                                                        verbose=verbose,
                                                                        mixed_precision=mixed_precision)
-        #self.network.do_ds = ds
+        self.network.do_ds = ds
         return ret
 
     def run_iteration(self, data_generator, do_backprop=True, run_online_evaluation=False):
