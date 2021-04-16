@@ -81,7 +81,7 @@ def main():
     #                     help="force_separate_z resampling. Can be None, True or False. Testing purpose only. Hands off")
 
 
-    sys.argv=['run_training.py','3d_fullres','nnUNetTrainerV2','4','all']
+    sys.argv=['run_training.py','3d_fullres','nnUNetTrainerV2','5','all']
     args = parser.parse_args()
     os.environ["CUDA_VISIBLE_DEVICES"] = "5"
     task = args.task

@@ -155,7 +155,7 @@ class DownTransition(nn.Module):
         self.norm_op = norm_op
         self.dropout = dropout
 
-        self.down_conv = self.conv_op(input_features, output_features, kernel_size=2, stride=first_stride)
+        self.down_conv = self.conv_op(input_features, output_features, kernel_size=(2,2,2), stride=first_stride)
         self.bn1 = self.norm_op(output_features, **self.norm_op_kwargs)
         self.relu1 = self.nonlin(**self.nonlin_kwargs)
         self.relu2 = self.nonlin(**self.nonlin_kwargs)
@@ -477,15 +477,15 @@ class VNet_recons(SegmentationNetwork):
                  norm_op=self.norm_op, norm_op_kwargs=self.norm_op_kwargs,
                  dropout_op=self.dropout_op, dropout_op_kwargs=self.dropout_op_kwargs,
                  nonlin=self.nonlin, nonlin_kwargs=self.nonlin_kwargs) #16
-        self.down_tr32 = DownTransition(input_features=channels,num_conv=1,first_stride=2,conv_op=self.conv_op, conv_kwargs=self.conv_kwargs,
+        self.down_tr32 = DownTransition(input_features=channels,num_conv=1,first_stride=(1,2,2),conv_op=self.conv_op, conv_kwargs=self.conv_kwargs,
                  norm_op=self.norm_op, norm_op_kwargs=self.norm_op_kwargs,
                  dropout_op=self.dropout_op, dropout_op_kwargs=self.dropout_op_kwargs,
                  nonlin=self.nonlin, nonlin_kwargs=self.nonlin_kwargs,basic_block=ConvDropoutNormNonlin,dropout=False) #32
-        self.down_tr64 = DownTransition(input_features=2*channels,num_conv=2,first_stride=2,conv_op=self.conv_op, conv_kwargs=self.conv_kwargs,
+        self.down_tr64 = DownTransition(input_features=2*channels,num_conv=2,first_stride=(1,2,2),conv_op=self.conv_op, conv_kwargs=self.conv_kwargs,
                  norm_op=self.norm_op, norm_op_kwargs=self.norm_op_kwargs,
                  dropout_op=self.dropout_op, dropout_op_kwargs=self.dropout_op_kwargs,
                  nonlin=self.nonlin, nonlin_kwargs=self.nonlin_kwargs,basic_block=ConvDropoutNormNonlin,dropout=False) #64
-        self.down_tr128 = DownTransition(input_features=4*channels,num_conv=3,first_stride=2,conv_op=self.conv_op, conv_kwargs=self.conv_kwargs,
+        self.down_tr128 = DownTransition(input_features=4*channels,num_conv=3,first_stride=(1,2,2),conv_op=self.conv_op, conv_kwargs=self.conv_kwargs,
                  norm_op=self.norm_op, norm_op_kwargs=self.norm_op_kwargs,
                  dropout_op=self.dropout_op, dropout_op_kwargs=self.dropout_op_kwargs,
                  nonlin=self.nonlin, nonlin_kwargs=self.nonlin_kwargs,basic_block=ConvDropoutNormNonlin,dropout=True)  #128
