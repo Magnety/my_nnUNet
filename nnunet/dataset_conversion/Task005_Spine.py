@@ -17,7 +17,7 @@ import shutil
 from batchgenerators.utilities.file_and_folder_operations import *
 from nnunet.paths import nnUNet_raw_data
 import os
-
+#
 if __name__ == "__main__":
     """
     This is the KiTS dataset after Nick fixed all the labels that had errors. Downloaded on Jan 6th 2020    
