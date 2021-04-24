@@ -53,7 +53,7 @@ def main():
                              "each dataset!")
     args = parser.parse_args()
     task_ids = args.task_ids
-    task_ids = [4]
+    task_ids = [6]
     dont_run_preprocessing = args.no_pp
     tl = args.tl
     tf = args.tf

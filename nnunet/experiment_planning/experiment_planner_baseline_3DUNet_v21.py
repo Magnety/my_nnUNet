@@ -18,6 +18,8 @@ import numpy as np
 from nnunet.experiment_planning.common_utils import get_pool_and_conv_props
 from nnunet.experiment_planning.experiment_planner_baseline_3DUNet import ExperimentPlanner
 from nnunet.network_architecture.generic_UNet import Generic_UNet
+from nnunet.network_architecture.generic_MedT import ResAxialAttentionUNet
+
 from nnunet.paths import *
 
 
@@ -117,9 +119,9 @@ class ExperimentPlanner3D_v21(ExperimentPlanner):
         # we compute as if we were using only 30 feature maps. We can do that because fp16 training is the standard
         # now. That frees up some space. The decision to go with 32 is solely due to the speedup we get (non-multiples
         # of 8 are not supported in nvidia amp)
-        ref = Generic_UNet.use_this_for_batch_size_computation_3D * self.unet_base_num_features / \
-              Generic_UNet.BASE_NUM_FEATURES_3D
-        here = Generic_UNet.compute_approx_vram_consumption(new_shp, network_num_pool_per_axis,
+        ref = ResAxialAttentionUNet.use_this_for_batch_size_computation_3D * self.unet_base_num_features / \
+              ResAxialAttentionUNet.BASE_NUM_FEATURES_3D
+        here = ResAxialAttentionUNet.compute_approx_vram_consumption(new_shp, network_num_pool_per_axis,
                                                             self.unet_base_num_features,
                                                             self.unet_max_num_filters, num_modalities,
                                                             num_classes,
@@ -166,9 +168,13 @@ class ExperimentPlanner3D_v21(ExperimentPlanner):
             0]) > self.anisotropy_threshold
 
         plan = {
-            'batch_size': batch_size,
+            #liuyiyao
+            #'batch_size': batch_size,
+            'batch_size': 4,
             'num_pool_per_axis': network_num_pool_per_axis,
-            'patch_size': input_patch_size,
+            #'patch_size': input_patch_size,
+            #liuyiyao
+            'patch_size': (8,128,128),
             'median_patient_size_in_voxels': new_median_shape,
             'current_spacing': current_spacing,
             'original_spacing': original_spacing,

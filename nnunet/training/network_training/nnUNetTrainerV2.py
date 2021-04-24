@@ -24,7 +24,8 @@ from nnunet.utilities.to_torch import maybe_to_torch, to_cuda
 from nnunet.network_architecture.generic_UNet import Generic_UNet
 from nnunet.network_architecture.generic_myUNet import VNet_recons
 from nnunet.network_architecture.generic_MedT import ResAxialAttentionUNet
-
+from nnunet.network_architecture.generic_MedT import medt_net
+from nnunet.training.model_restore import load_model_and_checkpoint_files
 
 from nnunet.network_architecture.initialization import InitWeights_He
 from nnunet.network_architecture.neural_network import SegmentationNetwork
@@ -50,7 +51,8 @@ class nnUNetTrainerV2(nnUNetTrainer):
                  unpack_data=True, deterministic=True, fp16=False):
         super().__init__(plans_file, fold, output_folder, dataset_directory, batch_dice, stage, unpack_data,
                          deterministic, fp16)
-        self.max_num_epochs = 300
+        self.max_num_epochs = 500
+
         self.initial_lr = 1e-3
         self.deep_supervision_scales = None
         self.ds_loss_weights = None
@@ -144,7 +146,7 @@ class nnUNetTrainerV2(nnUNetTrainer):
         if self.threeD:
             conv_op = nn.Conv3d
             dropout_op = nn.Dropout3d
-            norm_op = nn.InstanceNorm3d
+            norm_op = nn.BatchNorm3d
 
         else:
             conv_op = nn.Conv2d
@@ -156,19 +158,29 @@ class nnUNetTrainerV2(nnUNetTrainer):
         net_nonlin = nn.LeakyReLU
         net_nonlin_kwargs = {'negative_slope': 1e-2, 'inplace': True}
         #model = ResAxialAttentionUNet(AxialBlock, [1, 2, 4, 1], s=0.125, **kwargs)
-        """self.network = ResAxialAttentionUNet([1, 2, 4, 1],self.num_input_channels, self.base_num_features, self.num_classes,
-                                    len(self.net_num_pool_op_kernel_sizes),
-                                    self.conv_per_stage, 2, conv_op, norm_op, norm_op_kwargs, dropout_op,
-                                    dropout_op_kwargs,
-                                    net_nonlin, net_nonlin_kwargs, True, False, lambda x: x, InitWeights_He(1e-2),
-                                    self.net_num_pool_op_kernel_sizes, self.net_conv_kernel_sizes, False, True, True, s=0.125)"""
-        self.network = VNet_recons(self.num_input_channels, self.base_num_features, self.num_classes,
+
+        """self.network = ResAxialAttentionUNet([1, 1, 1, 1], self.num_input_channels,
+                                             self.num_classes, len(self.net_num_pool_op_kernel_sizes),
+                                             self.conv_per_stage, 2, conv_op, norm_op, norm_op_kwargs, dropout_op,
+                                             dropout_op_kwargs,
+                                             net_nonlin, net_nonlin_kwargs, False, lambda x: x, InitWeights_He(1e-2),
+                                             self.net_num_pool_op_kernel_sizes, self.net_conv_kernel_sizes, False, True,
+                                             True, s=0.0625, img_size=self.patch_size)"""
+        self.network = medt_net([1, 2, 4, 1], self.num_input_channels,
+                             self.num_classes, len(self.net_num_pool_op_kernel_sizes),
+                             self.conv_per_stage, 2, conv_op, norm_op, norm_op_kwargs, dropout_op,
+                             dropout_op_kwargs,
+                             net_nonlin, net_nonlin_kwargs, False, lambda x: x, InitWeights_He(1e-2),
+                             self.net_num_pool_op_kernel_sizes, self.net_conv_kernel_sizes, False, True,
+                             True, s=0.125, img_size=self.patch_size)
+
+        """self.network = VNet_recons(self.num_input_channels, self.base_num_features, self.num_classes,
                                     len(self.net_num_pool_op_kernel_sizes),
                                     self.conv_per_stage, 2, conv_op, norm_op, norm_op_kwargs, dropout_op,
                                     dropout_op_kwargs,
                                     net_nonlin, net_nonlin_kwargs, True, False, lambda x: x, InitWeights_He(1e-2),
                                     self.net_num_pool_op_kernel_sizes, self.net_conv_kernel_sizes, False, True, True)
-
+"""
 
         if torch.cuda.is_available():
             self.network.cuda()
