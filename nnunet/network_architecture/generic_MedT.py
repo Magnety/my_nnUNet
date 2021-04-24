@@ -1296,16 +1296,16 @@ class TUNet(SegmentationNetwork):
         x = self.conv3_u(x)
         ##print(x.shape)
         x = self.conv4_u(x)
-        x = F.relu(F.interpolate(x, scale_factor=(1, 2, 2), mode='trilinear'))
+        x = F.relu(F.interpolate(x, scale_factor=(1, 2, 2), mode='trilinear',align_corners=True))
         ##print("de",x.shape)
 
-        x = F.relu(F.interpolate(self.decoder1_u(x), scale_factor=(1, 2, 2), mode='trilinear'))
+        x = F.relu(F.interpolate(self.decoder1_u(x), scale_factor=(1, 2, 2), mode='trilinear',align_corners=True))
         ##print("de",x.shape)
 
-        x = F.relu(F.interpolate(self.decoder2_u(x), scale_factor=(1, 2, 2), mode='trilinear'))
+        x = F.relu(F.interpolate(self.decoder2_u(x), scale_factor=(1, 2, 2), mode='trilinear',align_corners=True))
         ##print("de",x.shape)
 
-        x = F.relu(F.interpolate(self.decoder3_u(x), scale_factor=(2, 2, 2), mode='trilinear'))
+        x = F.relu(F.interpolate(self.decoder3_u(x), scale_factor=(2, 2, 2), mode='trilinear',align_corners=True))
         ##print("de",x.shape)
 
         x_loc = x.clone()
@@ -1347,23 +1347,23 @@ class TUNet(SegmentationNetwork):
                 x4_p = self.layer4_p(x3_p)
                 ##print("layer4.shape",x4_p.shape)
 
-                x_p = F.relu(F.interpolate(self.decoder1_p(x4_p), scale_factor=(2, 2, 2), mode='trilinear'))
+                x_p = F.relu(F.interpolate(self.decoder1_p(x4_p), scale_factor=(2, 2, 2), mode='trilinear',align_corners=True))
                 ##print("_layer1.shape",x_p.shape)
 
                 x_p = torch.add(x_p, x4_p)
-                x_p = F.relu(F.interpolate(self.decoder2_p(x_p), scale_factor=(1, 2, 2), mode='trilinear'))
+                x_p = F.relu(F.interpolate(self.decoder2_p(x_p), scale_factor=(1, 2, 2), mode='trilinear',align_corners=True))
                 ##print("_layer2.shape",x_p.shape)
 
                 x_p = torch.add(x_p, x3_p)
-                x_p = F.relu(F.interpolate(self.decoder3_p(x_p), scale_factor=(1, 2, 2), mode='trilinear'))
+                x_p = F.relu(F.interpolate(self.decoder3_p(x_p), scale_factor=(1, 2, 2), mode='trilinear',align_corners=True))
                 ##print("_layer3.shape",x_p.shape)
 
                 x_p = torch.add(x_p, x2_p)
-                x_p = F.relu(F.interpolate(self.decoder4_p(x_p), scale_factor=(1, 2, 2), mode='trilinear'))
+                x_p = F.relu(F.interpolate(self.decoder4_p(x_p), scale_factor=(1, 2, 2), mode='trilinear',align_corners=True))
                 ##print("_layer4.shape",x_p.shape)
 
                 x_p = torch.add(x_p, x1_p)
-                x_p = F.relu(F.interpolate(self.decoder5_p(x_p), scale_factor=(1, 2, 2), mode='trilinear'))
+                x_p = F.relu(F.interpolate(self.decoder5_p(x_p), scale_factor=(1, 2, 2), mode='trilinear',align_corners=True))
                 ##print("_layer5.shape",x_p.shape)
 
 

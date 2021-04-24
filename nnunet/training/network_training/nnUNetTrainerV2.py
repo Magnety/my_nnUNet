@@ -25,7 +25,7 @@ from nnunet.network_architecture.generic_UNet import Generic_UNet
 from nnunet.network_architecture.generic_myUNet import VNet_recons
 from nnunet.network_architecture.generic_MedT import ResAxialAttentionUNet
 from nnunet.network_architecture.generic_MedT import medt_net
-
+from nnunet.training.model_restore import load_model_and_checkpoint_files
 
 from nnunet.network_architecture.initialization import InitWeights_He
 from nnunet.network_architecture.neural_network import SegmentationNetwork
