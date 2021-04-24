@@ -83,7 +83,7 @@ def main():
 
     sys.argv=['run_training.py','3d_fullres','nnUNetTrainerV2','6','all']
     args = parser.parse_args()
-    os.environ["CUDA_VISIBLE_DEVICES"] = "1"
+    os.environ["CUDA_VISIBLE_DEVICES"] = "0"
     task = args.task
     fold = args.fold
     network = args.network
